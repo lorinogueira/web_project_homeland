@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header__logo {
+  width: 254px;
+  height: 70px;
+  margin: 34px 0 90px;
+}
+
+.header__title {
+  margin: 0;
+  width: 720px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+.header__subtitle {
+  margin: 32px 0 74px;
+  width: 720px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.header__image {
+  width: 984px;
+  height: 615px;
+  margin-bottom: 92px;
+}

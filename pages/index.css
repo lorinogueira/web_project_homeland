@@ -1,0 +1,15 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/content.css);
+@import url(../blocks/footer.css);
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-4.1/Inter-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-4.1/Inter-Black.woff2);
+  font-weight: 900;
+}
