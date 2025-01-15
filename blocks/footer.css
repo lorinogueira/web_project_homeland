@@ -6,6 +6,19 @@
 .footer__text {
   margin: 92px 0 24px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__text {
+    margin: 88px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__text {
+    margin: 64px 0 24px;
+    line-height: 1;
+  }
 }
