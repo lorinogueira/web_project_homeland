@@ -1,0 +1,10 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.places-content {
+  margin: 0 auto;
+  max-width: 984px;
+}
