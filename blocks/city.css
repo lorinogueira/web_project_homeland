@@ -70,9 +70,10 @@
 
 .city__button {
   grid-area: button;
-  /*height: 48px;
-  max-width: 356px;*/
-  padding: 13px 20px;
+  box-sizing: border-box;
+  height: 48px;
+  max-width: 356px;
+  padding: 13px 0;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   color: #fff;
   border: none;
@@ -81,6 +82,9 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21.78px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
 }
 
 .city__button:hover {
@@ -139,9 +143,7 @@
   }
 
   .city__button {
-    font-size: 14px;
-    line-height: 16.94px;
-    padding: 15px 20px;
+    padding: 15px 0;
   }
 }
 
@@ -155,7 +157,7 @@
       "artists"
       "image"
       "description"
-      "description";
+      "button";
   }
 }
 
@@ -175,8 +177,10 @@
   }
 
   .city__button {
-    padding: 15px 9px;
+    padding: 15px 0;
     margin: 0 16px;
+    font-size: 14px;
+    line-height: 16.94px;
   }
 
   .city__description {
